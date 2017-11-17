@@ -17,6 +17,13 @@ public Aluno (int cpf, int ra, int telefone, String email, String nome_pai, Stri
 
 }
 
+public Aluno (int cpf, String email,  String nome_aluno){
+	this.cpf = cpf;
+	this.email = email;
+	this.nome_aluno = nome_aluno;
+
+}
+
 
 public String getNome_aluno() {
 	return nome_aluno;
