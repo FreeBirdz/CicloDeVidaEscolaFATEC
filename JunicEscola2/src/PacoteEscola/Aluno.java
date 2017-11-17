@@ -25,6 +25,34 @@ public Aluno (int cpf, String email,  String nome_aluno){
 }
 
 
+public Aluno (int cpf, int ra, String nome_aluno){
+	this.cpf = cpf;
+	this.ra = ra;
+	this.nome_aluno = nome_aluno;
+
+}
+
+
+
+public Aluno (int cpf){
+	this.cpf = cpf;
+}
+
+public Aluno (int cpf, int ra, int telefone, String email, String nome_aluno){
+	this.cpf = cpf;
+	this.ra = ra;
+	this.telefone = telefone;
+	this.email = email;
+	this.nome_aluno = nome_aluno;
+
+}
+
+public Aluno (int cpf, String nome_aluno){
+	this.cpf = cpf;
+	this.nome_aluno = nome_aluno;
+
+}
+
 public String getNome_aluno() {
 	return nome_aluno;
 }

@@ -15,6 +15,50 @@ public class Funcionario {
 		this.cargo = cargo;
 		
 	}
+	
+		public Funcionario (int cpfString nome_completo){
+		this.cpf = cpf;
+		this.nome_completo = nome_completo;
+	}
+	
+		public Funcionario (int id, int cpf, int telefone, String nome_completo, String endereco){
+		this.id = id;
+		this.cpf = cpf;
+		this.telefone = telefone;
+		this.nome_completo = nome_completo;
+		this.endereco = endereco;
+	}
+	
+		public Funcionario (int id, int cpf, String nome_completo, String periodo, String setor, String cargo){
+		this.id = id;
+		this.cpf = cpf;
+		this.nome_completo = nome_completo;
+		this.periodo = periodo;
+		this.setor = setor;
+		this.cargo = cargo;
+		
+	}
+	
+		public Funcionario (, int cpf, int telefone, String nome_completo, String endereco, String periodo, String setor, String cargo){
+		this.cpf = cpf;
+		this.telefone = telefone;
+		this.nome_completo = nome_completo;
+		this.endereco = endereco;
+		this.periodo = periodo;
+		this.setor = setor;
+		this.cargo = cargo;
+		
+	}
+	
+		public Funcionario (int id, String nome_completo, String endereco, String periodo, String setor, String cargo){
+		this.id = id;
+		this.nome_completo = nome_completo;
+		this.endereco = endereco;
+		this.periodo = periodo;
+		this.setor = setor;
+		this.cargo = cargo;
+		
+	}
 
 	public int getId() {
 		return id;

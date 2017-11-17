@@ -12,8 +12,21 @@ public Curso (String nome_curso, String periodo, int id){
 	this.nome_curso = nome_curso;
 	this.periodo = periodo;
 	this.id = id;
-	
+}
 
+public Curso (String periodo, int id){
+	this.periodo = periodo;
+	this.id = id;
+}
+
+public Curso (String nome_curso, int id){
+	this.nome_curso = nome_curso;
+	this.id = id;
+}
+
+public Curso (String nome_curso, String periodo){
+	this.nome_curso = nome_curso;
+	this.periodo = periodo;
 }
 
 public String getNome_curso() {

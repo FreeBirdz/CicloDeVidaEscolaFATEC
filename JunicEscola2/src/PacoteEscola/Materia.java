@@ -16,6 +16,23 @@ public Materia (int id, int n_vagas, String nome_materia, String descricao_mater
 	this.id = id;
 }
 
+public Materia (int n_vagas, String nome_materia, String descricao_materia){
+	this.nome_materia = nome_materia;
+	this.n_vagas = n_vagas;
+	this.descricao_materia = descricao_materia;
+}
+
+public Materia (int id, int n_vagas){
+	this.n_vagas = n_vagas;
+	this.id = id;
+}
+
+public Materia (int id, String nome_materia, String descricao_materia){
+	this.nome_materia = nome_materia;
+	this.descricao_materia = descricao_materia;
+	this.id = id;
+}
+
 public int getId() {
 	return id;
 }
